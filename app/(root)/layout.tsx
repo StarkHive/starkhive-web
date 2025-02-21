@@ -1,3 +1,4 @@
+
 import React from "react";
 
 export default function RootLayout({
@@ -5,5 +6,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <main>{children}</main>;
+  return <main>
+    {children}
+    </main>;
 }
