@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 import Link from "next/link";
 
-function Input({
+const Input = ({
 	label,
 	type,
 	name,
@@ -15,7 +15,7 @@ function Input({
 	type: string;
 	name: string;
 	placeholder: string;
-}) {
+}) => {
 	const [showPassword, setShowPassword] = useState(false);
 	const isPassword = type === "password";
 
@@ -47,7 +47,7 @@ function Input({
 			</div>
 		</div>
 	);
-}
+};
 
 export default function SignIn() {
 	return (
