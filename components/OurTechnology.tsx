@@ -10,7 +10,7 @@ const techInfo = [
     },
     {
         heading: "AI  integration",
-        description: "Advanced matching algorithms to connect the right talent with the right opportunities"
+        description: "Advanced matching algorithms to connect the right talent with the right opportunities."
     },
 ]
 
